@@ -21,8 +21,8 @@
 /* Variables used when dark mode is active */
 body.dark-theme {
     --primary-color: #c7b7ff;
-    --primary-dark: #aa94f5;
-    --accent-color: #63dccb;
+    --primary-dark: #6d58b1;
+    --accent-color: #317c72;
 
     --background-color: #17151d;
     --surface-color: #24212c;
@@ -403,6 +403,53 @@ section {
     color: var(--accent-color);
     font-weight: 700;
 }
+.contact-links {
+    width: min(100%, 700px);
+    margin: 0 auto 28px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+}
+
+.contact-link-card {
+    padding: 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: var(--surface-color);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    transition:
+        transform 0.2s ease,
+        border-color 0.2s ease;
+}
+
+.contact-link-card:hover {
+    border-color: var(--primary-color);
+    transform: translateY(-4px);
+}
+
+.contact-link-label {
+    color: var(--muted-text);
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.contact-link-value {
+    color: var(--primary-color);
+    font-weight: 700;
+    overflow-wrap: anywhere;
+}
+
+@media (max-width: 600px) {
+    .contact-links {
+        grid-template-columns: 1fr;
+    }
+}
+
 
 /* ---------- Footer ---------- */
 

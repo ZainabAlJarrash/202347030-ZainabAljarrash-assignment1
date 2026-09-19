@@ -4,15 +4,10 @@
 
 I used ChatGPT, TeleportHQ, and Webstudio while working on this assignment.
 
-### ChatGPT
+I used ChatGPT as a guide. It helped me create the initial HTML structure, turn my ideas into visual and interactive components, and understand the dark-mode feature. It also helped me find syntax errors and make the layout responsive on different screen sizes.
 
-I used ChatGPT as a guide throughout the assignment. It helped me in creatng the initial html structure and also helped me in converting the ideas I have into visual and interactive component. A major thing it helped me in is the dark mode feature. Also, I got many syntax errors and It helped me in finding and fixing them and changing the size based on diff devices.
+I tried TeleportHQ and Webstudio to explore website designs and generate CSS visually. They helped me understand how colors, spacing, and layouts change the appearance of a webpage. However, I found it difficult to complete the design using their free versions, so I wrote the CSS in my project with help from ChatGPT and changed it to match the appearance I wanted.
 
-### TeleportHQ and Webstudio
-
-I tried TeleportHQ and Webstudio to explore different website designs and generate special CSS visually. They helped me see how colors, spacing, layouts, and other design choices affect the appearance of a website.
-
-However, I found it difficult to complete the design using these tools because of the limitations I faced in their free versions. I decided to write the CSS in my own project with some help from ChatGPT instead based on the appearence I prefer.
 
 ## Benefits and Challenges
 

@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-This project is a responsive personal portfolio website that aims to help us toward our professional portifolio. It introduces me, presents my main projects, shows my skills and interests, and provides contact information for future communication.
+This project is a responsive personal portfolio website that aims to help us toward our professional portfolio. It introduces me, presents my main projects, shows my skills and interests, and provides contact information for future communication.
 
-The website was created only using HTML, CSS, and JavaScript .
+The website was created using HTML, CSS, and JavaScript.
 
 ## Technologies Used
 

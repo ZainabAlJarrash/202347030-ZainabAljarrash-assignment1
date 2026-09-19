@@ -38,42 +38,42 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
     // Switch between light and dark themes.
-const themeToggle = document.querySelector("#theme-toggle");
-const savedTheme = localStorage.getItem("portfolio-theme");
+    const themeToggle = document.querySelector("#theme-toggle");
+    const savedTheme = localStorage.getItem("portfolio-theme");
 
-// Restore the visitor's previous theme.
-if (savedTheme === "dark") {
-    document.body.classList.add("dark-theme");
-}
+    // Restore the visitor's previous theme.
+    if (savedTheme === "dark") {
+        document.body.classList.add("dark-theme");
+    }
 
-function updateThemeButton() {
-    const darkModeIsActive =
-        document.body.classList.contains("dark-theme");
-
-    themeToggle.textContent =
-        darkModeIsActive ? "Light mode" : "Dark mode";
-
-    themeToggle.setAttribute(
-        "aria-pressed",
-        darkModeIsActive.toString()
-    );
-}
-
-if (themeToggle) {
-    updateThemeButton();
-
-    themeToggle.addEventListener("click", function () {
-        document.body.classList.toggle("dark-theme");
-
+    function updateThemeButton() {
         const darkModeIsActive =
             document.body.classList.contains("dark-theme");
 
-        localStorage.setItem(
-            "portfolio-theme",
-            darkModeIsActive ? "dark" : "light"
-        );
+        themeToggle.textContent =
+            darkModeIsActive ? "Light mode" : "Dark mode";
 
+        themeToggle.setAttribute(
+            "aria-pressed",
+            darkModeIsActive.toString()
+        );
+    }
+
+    if (themeToggle) {
         updateThemeButton();
-    });
-}
+
+        themeToggle.addEventListener("click", function () {
+            document.body.classList.toggle("dark-theme");
+
+            const darkModeIsActive =
+                document.body.classList.contains("dark-theme");
+
+            localStorage.setItem(
+                "portfolio-theme",
+                darkModeIsActive ? "dark" : "light"
+            );
+
+            updateThemeButton();
+        });
+    }
 });

@@ -36,7 +36,9 @@ A project designed to help students understand information related to computer n
 
 ## Project Structure
 
+## Project Structure
 
+```text
 project-folder/
 ├── index.html
 ├── README.md
@@ -52,7 +54,7 @@ project-folder/
 └── docs/
     ├── ai-usage-report.md
     └── technical-documentation.md
-
+```
 
 
 ## How to Run
@@ -61,9 +63,8 @@ project-folder/
 2. Open the project folder in Visual Studio Code.
 3. Open `index.html` using Live Server.
 
-No installation or backend is required.
+Note : No installation or backend is required.
 
 ## AI Use
 
-I used ChatGPT for guidance, code suggestions, debugging, and documentation. I also explored TeleportHQ and Webstudio for design ideas but did not use them in the final result. I reviewed, changed, and tested the suggestions before using them and also created my own code (more details are in the "ai-usage-report.md").
-
+I used ChatGPT for guidance, code suggestions, debugging, and documentation. I also explored TeleportHQ and Webstudio for design ideas but did not use them in the final result. I reviewed, changed, and tested the suggestions before including them in my project.More details are available in `docs/ai-usage-report.md`.

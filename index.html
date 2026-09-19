@@ -46,7 +46,7 @@
                 <h1>Zainab Aljarrash</h1>
 
                 <p class="tagline">
-                    Software engineering student, technology enthusiast,
+                    A Software engineering student, technology enthusiast,
                     and graphic designer.
                 </p>
 
@@ -61,7 +61,7 @@
         <!-- About Me section -->
         <section id="about" class="section">
             <div class="section-heading">
-                <p class="section-label">Get to know me</p>
+                <p class="section-label">Who I am</p>
                 <h2>About Me</h2>
             </div>
 
@@ -74,8 +74,10 @@
                 <div>
                     <p>
                         I am a software engineering student with a strong
-                        interest in technology and programming. I enjoy
-                        combining technical problem-solving with my experience
+                        interest in technology and programming.
+                    </p>
+                    <p>
+                        I enjoy combining technical problem-solving with my experience
                         as a graphic designer to create useful and visually
                         engaging digital experiences.
                     </p>
@@ -130,15 +132,15 @@
                         <h3>Networking Assistant</h3>
 
                         <p>
-                            A technology project created to assist users with
+                            A web based project created to assist ICS343 students with
                             networking concepts and make network-related
-                            information easier to understand.
+                            information easier to understand esspecially in their labs.
                         </p>
 
                         <ul class="project-tags" aria-label="Project technologies">
                             <li>Networking</li>
                             <li>Problem-Solving</li>
-                            <li>User Support</li>
+                            <li>Students Support</li>
                         </ul>
                     </div>
                 </article>
@@ -165,7 +167,7 @@
                     <h3>Graphic Design</h3>
                     <p>
                         Creating attractive visuals and user-focused digital
-                        experiences.
+                        experiences esspecially for university events.
                     </p>
                 </article>
 
@@ -189,51 +191,54 @@
 
         <!-- Contact section -->
         <section id="contact" class="section section-alt">
-            <div class="section-heading">
-                <p class="section-label">Let's connect</p>
-                <h2>Contact Me</h2>
-            </div>
+    <div class="section-heading">
+        <p class="section-label">Let's connect</p>
+        <h2>Contact Me</h2>
+    </div>
 
-            <form id="contact-form" class="contact-form">
-                <div class="form-group">
-                    <label for="name">Name</label>
-                    <input
-                        id="name"
-                        name="name"
-                        type="text"
-                        autocomplete="name"
-                        required
-                    >
-                </div>
+    <div class="contact-details">
+        <p>
+            University email:
+            <a href="mailto:s202347030@kfupm.edu.sa">
+                s202347030@kfupm.edu.sa
+            </a>
+        </p>
 
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input
-                        id="email"
-                        name="email"
-                        type="email"
-                        autocomplete="email"
-                        required
-                    >
-                </div>
+        <p>
+            LinkedIn:
+            <a
+                href="https://www.linkedin.com/in/zainab-aljarrash/"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                View my LinkedIn profile
+            </a>
+        </p>
+    </div>
 
-                <div class="form-group">
-                    <label for="message">Message</label>
-                    <textarea
-                        id="message"
-                        name="message"
-                        rows="6"
-                        required
-                    ></textarea>
-                </div>
+    <form id="contact-form" class="contact-form">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required>
+        </div>
 
-                <button class="primary-button" type="submit">
-                    Send message
-                </button>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required>
+        </div>
 
-                <p id="form-status" class="form-status" aria-live="polite"></p>
-            </form>
-        </section>
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+        </div>
+
+        <button class="primary-button" type="submit">
+            Send message
+        </button>
+
+        <p id="form-status" class="form-status" aria-live="polite"></p>
+    </form>
+</section>
     </main>
 
     <footer class="site-footer">

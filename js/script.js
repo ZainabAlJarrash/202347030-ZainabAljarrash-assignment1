@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const visitorName = nameInput.value.trim();
 
             formStatus.textContent =
-                `Thank you, ${visitorName}! Your message has been recorded for this demonstration.`;
+                `Thank you, ${visitorName}! Your message has been sent.`;
 
             contactForm.reset();
         });
